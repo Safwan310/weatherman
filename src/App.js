@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import WeatherCard from "./WeatherCard";
+const App = () => {
 
-function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className ="h-screen w-full flex flex-col justify-center items-center bg-green-300">
+      <h1 className = "p-5 text-center font-neon text-4xl">Weatherman ⛈️</h1>
+      <WeatherCard></WeatherCard>
     </div>
-  );
+  )
 }
+export default App
 
-export default App;
