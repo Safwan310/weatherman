@@ -66,7 +66,7 @@ const WeatherCard = () => {
                     <div className = "flex flex-col justify-center items-center md:items-stretch md:flex-row justify-around md:text-xl p-5">
                         <div className = "bg-white w-full md:w-1/3 border rounded-2xl flex flex-col grid justify-center items-center">
                             <h1 className = "text-center w-full">Temperature</h1>
-                            <h1 className = "text-center text-2xl md:text-4xl w-full">{weatherData.main.temp}</h1>
+                            <h1 className = "text-center text-2xl md:text-4xl w-full">{weatherData.main.temp} °C</h1>
                         </div>
                         <div className = "grid justify-center bg-white w-full md:w-1/3 border rounded-2xl p-5">
                             <div className = "grid justify-center">
